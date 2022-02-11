@@ -251,6 +251,8 @@ body {
   background: linear-gradient(to bottom, rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url("../assets/images/feature/valley.jpg") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
+  padding-bottom: 0;
+  margin-bottom: 25px;
 }
 
 
@@ -392,4 +394,21 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #999;
+}
+
+
+/* Feature */
+
+.feature {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.feature__iphone {
+  position: absolute;
+  bottom: -90px;
+  right: -60px;
+  z-index: 1;
 }
